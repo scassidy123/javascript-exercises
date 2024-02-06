@@ -16,4 +16,9 @@ palindromes('racecar') // true
 palindromes('tacos') // false
 ```
 
-
+1. remove all of the spaces and punctuation, turn to an array
+2. count number of indexes (.length?)
+3. if it's even
+  compare first half of array to second half of array
+4. if it's odd
+  compare first half of array minus 1 to second half of array
